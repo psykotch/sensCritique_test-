@@ -1,5 +1,12 @@
 **Test technique**
 
+**installation et utilisation**
+
+ - pip install -r requirements.txt
+ - from main.py import *
+ - pour récupérer la critique la plus similaire à la critique numéro 40 de fight_club : similarity(40, reviews_to_list("fightclub_critiques.csv"))
+
+
 **présentation de la solution :** 
 
 après des recherches sur les différents de traitement de textes en Python, j'ai décidé de m'orienter vers l'algorithme 
